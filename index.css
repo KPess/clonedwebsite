@@ -1,0 +1,109 @@
+body {
+    background-color: blue;
+    color: white;
+    margin: auto;
+    padding: 5%;
+    font-family: arial;
+    height: 100vh;
+   
+}
+
+.header {
+    display: flex;   
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 15vh;
+}
+
+.owl {
+    max-width: 5%;
+    
+}
+
+.topleft {
+    padding: 3%;
+}
+
+.bigowl {
+    max-width: 50%;
+    padding: 3%;
+}
+
+.title {
+    font-size: 350%;
+    height: 10vh;
+    margin: auto;
+    padding: 3%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    text-align: center;
+    line-height: 200%;
+    padding: 3%;
+}
+
+.topcenter {
+    width: 40vw;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    justify-content: space-around;
+}
+   
+.button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.subscribebutton {
+    border-radius: 30px;
+    height: 5vh;
+    width: 10vw;
+    background: blue;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    font-size: 70%;
+}
+
+.start-button {
+    border-radius: 30px;
+    font-weight: 700;
+    height: 5vh;
+    background: white;
+    color: blue;
+    border-width: 0px;
+    padding: 1% 5%;
+    margin: 3%;
+}
+
+content {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.leftsidebar {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-bottom: 10%;
+
+}
+
+.rightsidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin: 5vh;
+    width: 5%;
+
+}
